@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+   justify-content: center;
+    width: 100%;
+    height: 80px;
+   
+    bottom: 0;
+    padding: 20px 0 10px 0;
+}
+.nav-bar{
+    width: 15%;
+    
+}
+img{
+ box-sizing: border-box;
+}

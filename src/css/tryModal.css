@@ -1,0 +1,16 @@
+.modal1{
+    width: 878PX;
+    height: 998px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -440px;
+    z-index: 1050;
+    /* display: none; */
+    
+    background-color:white;
+    outline: 0;
+    text-align: center;
+    
+
+}

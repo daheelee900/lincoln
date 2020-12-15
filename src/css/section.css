@@ -1,0 +1,26 @@
+.section{
+    justify-content: center;
+    width: 100;
+}
+.main1{
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.item{
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+.item img {
+    height: 100%;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
+.bottom_layout{
+    margin-top: 20px;
+}
