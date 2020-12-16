@@ -52,23 +52,37 @@ render(){
      <p>어떤 자동차에 관심이 있나요? *</p>
            </div>
            <div>
-            <select name="car"  style={{width:250,height:30}}>
+            <select name="car"  style={{width:250,height:30,margin:20}}>
                <option value="CONTINENTAL">LINCOLN CONTINENTAL</option>
                <option value="MKZ">LINCOLN MKZ</option>
                <option value="NAUTILUS">LINCOLN NAUTILUS</option>
                <option value="MKC">LINCOLN MKC</option>
             </select>
             </div>
-            <div>
-               <p>이름</p>
-               <p>뭘까요?</p>
-           </div>
+          
            
-           <div><input type="text" name="name" ></input> </div>
+           <div><p>이름</p><input type="text" name="name"  style={{width:250,height:30,margin:20}}></input> </div>
+          
+            <div> <p>이메일</p><input type="email" style={{width:250,height:30,margin:20}}></input></div>
+          </Col>
+          
+<Col className="item" md="6">
+<div>
+     <p>어떤 자동차에 관심이 있나요? *</p>
+           </div>
            <div>
-                <p>이메일</p>
+            <select name="car"  style={{width:250,height:30,margin:20}}>
+               <option value="CONTINENTAL">LINCOLN CONTINENTAL</option>
+               <option value="MKZ">LINCOLN MKZ</option>
+               <option value="NAUTILUS">LINCOLN NAUTILUS</option>
+               <option value="MKC">LINCOLN MKC</option>
+            </select>
             </div>
-            <div><input type="email"></input></div>
+          
+           
+           <div><p>이름</p><input type="text" name="name"  style={{width:250,height:30,margin:20}}></input> </div>
+          
+            <div> <p>이메일</p><input type="email" style={{width:250,height:30,margin:20}}></input></div>
           </Col>
 
 </Row>
