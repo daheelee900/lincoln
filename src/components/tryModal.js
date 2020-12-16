@@ -61,6 +61,7 @@ render(){
             </div>
             <div>
                <p>이름</p>
+               <p>뭘까요?</p>
            </div>
            
            <div><input type="text" name="name" ></input> </div>
