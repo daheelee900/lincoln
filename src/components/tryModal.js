@@ -79,7 +79,7 @@ render(){
             </select>
             </div>
           
-           
+           <p>dks</p>
            <div><p>이름</p><input type="text" name="name"  style={{width:250,height:30,margin:20}}></input> </div>
           
             <div> <p>이메일</p><input type="email" style={{width:250,height:30,margin:20}}></input></div>
